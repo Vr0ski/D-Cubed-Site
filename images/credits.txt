@@ -1,0 +1,2 @@
+banner.jpg: https://www.vecteezy.com/vector-art/273676-abstract-3d-geometric-white-background
+logo.png: https://www.d3solidconsultants.com/index.html
