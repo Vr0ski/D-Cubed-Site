@@ -92,6 +92,12 @@ nav .fa{
   display: none;
 }
 @media(max-width: 700px){
+  .nav-links ul li:hover::after{
+    width: 0%;
+  }
+  html, body {
+    overflow-x: hidden;
+  }
   nav .fa{
     display: block;
     color: #ababab;
@@ -102,7 +108,7 @@ nav .fa{
   .text-box h1{
     font-size: 20px;
   }
-  .nav-linls ul li{
+  .nav-links ul li{
     display: block;
   }
   .nav-links{
@@ -117,7 +123,7 @@ nav .fa{
     transition: 0.7s;
   }
   nav .fa{
-    display:block;
+    display: block;
     color: #fff;
     margin: 10px;
     font-size: 22px;
