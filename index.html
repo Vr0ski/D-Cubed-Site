@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>D Cubed Solid Consultants Inc. | Home</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <section class="header">
+    <nav>
+      <a href="index.html"><img src="images/logo.png" alt=""></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="services.html">SERVICES</a></li>
+          <li><a href="training.html">TRAINING</a></li>
+          <li><a href="portfolio.html">PORTFOLIO</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+<div class="text-box">
+  <h1>D Cubed Solid Consultants Inc.</h1>
+  <p><br>CAD, Design & Analysis Solutions for engineering, manufacturing and management organizations.</p>
+  <a href="about.html" class="hero-btn">Who we are</a>
+</div>
+
+  </section>
+
+<!----- services ----->
+
+<section class="elements">
+
+  <div class="row">
+    <div class="elements-col">
+      <h3>Services</h3>
+      <img src="images/services.png" width="80%" height="50%">
+      <p>Linear and Non-Linear Analysis, Fatigue, Buckling and Structural Dynamic Analysis.</p>
+    </div>
+    <div class="elements-col">
+      <h3>Portfolio</h3>
+      <img src="images/portfolio.png" width="80%" height="50%">
+      <p>FEA/CFD, HVAC and Design.</p>
+    </div>
+    <div class="elements-col">
+      <h3>Contact D Cubed</h3>
+      <img src="images/contact.png" width="80%" height="50%">
+      <p>We're glad to help with any general questions or inquiries.</p>
+    </div>
+  </div>
+
+</section>
+
+<!---
+<section class="about">
+  <h1>About D Cubed</h1>
+  <p>D Cubed was established to satisfy several needs throughout industrial organizations, instituitions and engineering consultants who wanted to optimise their process and their product portfolio, applying engineering best practices and validating the designed product and or equipment. Providing significant advantages; to reduce design iterations, lower manufacturing costs with more reliable products.</p>
+
+  <div class="row">
+    <div class="about-col">
+      <img src="images/services.png">
+    </div>
+  </div>
+
+</section>
+--->
+
+<!--- footer --->
+
+<section class = "footer">
+  <h3>About D Cubed</h3>
+  <p>D Cubed was established to satisfy several needs throughout industrial organizations,
+    instituitions and engineering consultants who wanted to optimise their process and their
+    product portfolio, applying engineering best practices and validating the designed product
+    and or equipment. Providing significant advantages; to reduce design iterations, lower
+    manufacturing costs with more reliable products.</p>
+    <div class = "icons">
+      <a href="https://www.facebook.com/" target="_blank"><i class = "fa fa-facebook"></i></a>
+      <a href="https://www.twitter.com/" target="_blank"><i class = "fa fa-twitter"></i></a>
+      <a href="https://www.instagram.com/" target="_blank"><i class = "fa fa-instagram"></i></a>
+      <a href="https://www.linkedin.com/" target="_blank"><i class = "fa fa-linkedin"></i></a>
+    </div>
+    <p style="font-size: 10px;">Kacper Burza, 2020 <i class="fa fa-hand-peace-o"></i></p>
+</section>
+
+<!----- JavaScript for Toggle Menu ----->
+<script>
+
+  var navLinks = document.getElementById("navLinks");
+
+  function showMenu() {
+    navLinks.style.right = "0";
+  }
+  function hideMenu() {
+    navLinks.style.right = "-200px";
+  }
+
+</script>
+
+</body>
+</html>

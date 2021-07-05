@@ -1,0 +1,5 @@
+Tutorial: https://www.youtube.com/watch?v=oYRda7UtuhA
+Fonts: fonts.google.com
+       https://www.bootstrapcdn.com/fontawesome
+Icons: https://fontawesome.com/v4.7/icons/
+Html Color: https://www.htmlcolor-picker.com/
